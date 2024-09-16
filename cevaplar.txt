@@ -1,0 +1,30 @@
+1. Kullanıcıdan iki sayı alarak bu sayıları toplayan bir programın pseudo kodunu yazın.
+  Başla
+    İlk sayıyı al (Sayı1)
+    İkinci sayıyı al (Sayı2)
+    Toplam = Sayı1 + Sayı2
+    Yazdır("Sayı1 ile Sayı2'nin toplamı:", Toplam)
+  Bitir
+
+2. 1'den 100'e kadar olan sayıları toplayan bir programın pseudo kodunu yazın.
+  Başla
+    n'e kadar olan sayıların toplamı formülü: (n * (n + 1)) / 2
+    n = 100
+    Toplam: (100 * (100+1)) / 2
+    Yazdır("100'e kadar sayıların toplamı:", Toplam);
+  Bitir
+
+3. Kullanıcıdan alınan bir sayının asal olup olmadığını bulan bir programın pseudo kodunu yazın.
+  Başla
+    Asal sayı kontrolü yapılacak sayıyı al(Sayı)
+    for n=2'den n=Sayı'ya kadar:
+      kalanSayı = Sayı / n;
+      Eğer kalan sayı 0 ise:
+        Yazdır(Sayı, "asal sayı değildir.")
+      Eğer kalan sayı 0 değil ise:
+        n'i 1 arttır ve döngüye devam et
+      Eğer n Sayı'ya eşitse:
+        Yazdır(Sayı, "asal sayıdır.")
+  Bitir
+    
+  
